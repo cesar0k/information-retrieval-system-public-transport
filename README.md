@@ -77,3 +77,12 @@
 
 ## Disclaimer
 Please don't judge me for this code.
+
+## Data Storage
+
+The application's data, which includes public transport routes, is stored in the `transport.txt` file. Each line in this file represents a different transport route and its details.
+
+The format of each line is as follows:
+`[Route Number] [Transport Type] [Capacity] [Driver's Last Name] [Operating Hours]`
+
+The application reads from this file at startup and writes any new or modified data back to it.
